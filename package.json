@@ -1,0 +1,28 @@
+{
+  "name": "node_express_portfolio",
+  "version": "1.0.0",
+  "description": "Creating a Portfolio in Node.js and using the Express framwork and Pug templates for rendering the HTML",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node": "^14.5.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdegand/node_express_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdegand/node_express_portfolio/issues"
+  },
+  "homepage": "https://github.com/tdegand/node_express_portfolio#readme"
+}
