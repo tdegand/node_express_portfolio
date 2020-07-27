@@ -1,4 +1,4 @@
-{
+[
     {
         "id": "1",
         "project_name": "Random Quote Generator",
@@ -44,4 +44,4 @@
         "github_link": "https://github.com/tdegand/public_api_requests",
         "image_urls": "[./images/apirequests-square.jpg, ./images/apirequests-1.jpg, ./images/apirequests-2.jpg]"
     }
-}
+]
