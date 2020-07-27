@@ -17,15 +17,18 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/project/:id', (req, res) => {
-    const id = project.id
-    const name = project.name
-    const description = project.description
-    const tech = project.technologies
-    const live = project.live_link
-    const github = project.github_link
-    const photos = project.image_urls
 
-    const projectData = { name, description, tech, live, github, photos }
+    project.forEach(project => {
+        const name = project.project_name
+        const description = project.description
+        const tech = project.technologies
+        const live = project.live_link
+        const github = project.github_link
+        const photos = project.image_urls
+        const projectData = { name, description, tech, live, github, photos }
+
+        return projectData
+    });
 
     res.render('project', projectData);
 })
