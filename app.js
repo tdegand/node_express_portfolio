@@ -20,6 +20,8 @@ app.get('/project/:id', (req, res) => {
     const project = projects.find(({ id }) => id === +projectId);
     if (project) {
         res.render('project', { project })
+    } else if (projectId) {
+        res.render('project', { project })
     } else {
         res.sendStatus(404);
     }

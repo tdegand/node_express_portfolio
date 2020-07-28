@@ -4,7 +4,11 @@
             "id": "1",
             "project_name": "Random Quote Generator",
             "description": "Displays random quotes on the Page and using basic Javascript",
-            "technologies": "[HTML, CSS, JavaScript]",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tdegand.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/tdegand/Random-Quote-Generator",
             "image_urls": [
@@ -17,7 +21,11 @@
             "id": "2",
             "project_name": "List Pagination and Filtering",
             "description": {},
-            "technologies": "[HTML, CSS, JavaScript]",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tdegand.github.io/list-pagination-and-filtering/",
             "github_link": "https://github.com/tdegand/list-pagination-and-filtering",
             "image_urls": [
@@ -30,7 +38,11 @@
             "id": "3",
             "project_name": "Interactive Form",
             "description": {},
-            "technologies": "[HTML, CSS, JavaScript]",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live_link": "https://tdegand.github.io/Interactive-form/",
             "github_link": "https://github.com/tdegand/Interactive-form",
             "image_urls": [
@@ -43,7 +55,11 @@
             "id": "4",
             "project_name": "Gameshow app",
             "description": {},
-            "technologies": "[HTML, CSS,  Object Orientated JavaScript]",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Object Orientated JavaScript"
+            ],
             "live_link": "https://tdegand.github.io/gameshow-app/",
             "github_link": "https://github.com/tdegand/gameshow-app",
             "image_urls": [
@@ -56,7 +72,13 @@
             "id": "5",
             "project_name": "Public API request",
             "description": {},
-            "technologies": "[HTML, CSS, JavaScript, AJAX, API's]",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AJAX",
+                "API's"
+            ],
             "live_link": "https://tdegand.github.io/public_api_requests/",
             "github_link": "https://github.com/tdegand/public_api_requests",
             "image_urls": [
