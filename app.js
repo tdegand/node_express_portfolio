@@ -18,8 +18,6 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === +projectId);
-    const newLocal = JSON.parse(project.image_urls);
-
     if (project) {
         res.render('project', { project })
     } else {
