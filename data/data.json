@@ -7,7 +7,11 @@
             "technologies": "[HTML, CSS, JavaScript]",
             "live_link": "https://tdegand.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/tdegand/Random-Quote-Generator",
-            "image_urls": "[/static/images/randomquote-square.jpg, /static/images/randomquote-1.jpg, /static/images/randomquote-2.jpg]"
+            "image_urls": [
+                "/static/images/randomquote-square.jpg",
+                "/static/images/randomquote-1.jpg",
+                "/static/images/randomquote-2.jpg"
+            ]
         },
         {
             "id": "2",
@@ -16,7 +20,11 @@
             "technologies": "[HTML, CSS, JavaScript]",
             "live_link": "https://tdegand.github.io/list-pagination-and-filtering/",
             "github_link": "https://github.com/tdegand/list-pagination-and-filtering",
-            "image_urls": "[/static/images/pagination-square.jpg, /static/images/pagination-1.jpg, /static/images/pagination-2.jpg]"
+            "image_urls": [
+                "/static/images/pagination-square.jpg",
+                "/static/images/pagination-1.jpg",
+                "/static/images/pagination-2.jpg"
+            ]
         },
         {
             "id": "3",
@@ -25,7 +33,11 @@
             "technologies": "[HTML, CSS, JavaScript]",
             "live_link": "https://tdegand.github.io/Interactive-form/",
             "github_link": "https://github.com/tdegand/Interactive-form",
-            "image_urls": "[/static/images/forms-square.jpg, /static/images/forms-1.jpg, /static/images/forms-2.jpg]"
+            "image_urls": [
+                "/static/images/forms-square.jpg",
+                "/static/images/forms-1.jpg",
+                "/static/images/forms-2.jpg"
+            ]
         },
         {
             "id": "4",
@@ -34,7 +46,11 @@
             "technologies": "[HTML, CSS,  Object Orientated JavaScript]",
             "live_link": "https://tdegand.github.io/gameshow-app/",
             "github_link": "https://github.com/tdegand/gameshow-app",
-            "image_urls": "[/static/images/phrase-square.jpg, /static/images/phrase-1.jpg, /static/images/phrase-2.jpg]"
+            "image_urls": [
+                "/static/images/phrase-square.jpg",
+                "/static/images/phrase-1.jpg",
+                "/static/images/phrase-2.jpg"
+            ]
         },
         {
             "id": "5",
@@ -43,7 +59,11 @@
             "technologies": "[HTML, CSS, JavaScript, AJAX, API's]",
             "live_link": "https://tdegand.github.io/public_api_requests/",
             "github_link": "https://github.com/tdegand/public_api_requests",
-            "image_urls": "[/static/images/apirequests-square.jpg, /static/images/apirequests-1.jpg, /static/images/apirequests-2.jpg]"
+            "image_urls": [
+                "/static/images/apirequests-square.jpg",
+                "/static/images/apirequests-1.jpg",
+                "/static/images/apirequests-2.jpg"
+            ]
         }
     ]
 }
