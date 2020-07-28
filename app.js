@@ -19,7 +19,9 @@ app.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === +projectId);
     const newLocal = JSON.parse(project.image_urls);
-    const photos = newLocal
+    const photos = []
+    photos.push(newLocal)
+
     const photo1 = photos[0]
     const photo2 = photos[1]
     const photo3 = photos[2]
