@@ -1,3 +1,10 @@
 extends layout.pug
 
 block content 
+
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    article.error-container
+            p.error-message #{err.message}
+            p.error-status #{err.status}
+            p.error-stack #{err.stack}

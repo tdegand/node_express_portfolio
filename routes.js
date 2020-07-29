@@ -14,14 +14,24 @@ router.get('/about', (req, res) => {
 })
 //projects page routes
 //dynamically pulls in the proper page when project is selected
-router.get('/project/:id', (req, res) => {
+router.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find(({ id }) => id === projectId);
     if (project) {
         res.render('project', { project })
     } else {
-        res.sendStatus(404);
+        const error = new Error("This page cannot be found")
+        error.status = 404
+        next(error)
     }
 });
+
+router.get('*', (req, res, next) => {
+    const error = new Error("This page cannot be found")
+    error.status = 404
+    next(error)
+})
+
+
 //export the router for use elsewhere
 module.exports = router
