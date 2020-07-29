@@ -18,6 +18,7 @@ app.use(routes)
 app.use((err, req, res, next) => {
     res.locals.error = err
     res.status = err.status
+    console.error(err)
     res.render('error', { err })
 })
 
