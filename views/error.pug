@@ -5,6 +5,5 @@ block content
     nav.grid-container.portfolio-breadcrumb
         a(href='/') ← Back
     article.error-container
-            p.error-message #{err.message}
-            p.error-status #{err.status}
+            h3.error-message #{err.message} #{err.status}
             p.error-stack #{err.stack}
