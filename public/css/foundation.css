@@ -5014,7 +5014,7 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #189AB4;
   color: #fefefe;
   display: -ms-flexbox;
   display: flex;
@@ -5037,7 +5037,9 @@ a.thumbnail {
 .title-bar-title {
   display: inline-block;
   vertical-align: middle;
-  font-weight: bold; }
+  font-weight: bold; 
+  margin-left: 10px;
+}
 
 .has-tip {
   position: relative;

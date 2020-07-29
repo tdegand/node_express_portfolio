@@ -12,6 +12,7 @@ index:
     added transition for learn more link
     added border radius and box shadows
     changed border colors of project thumbnails
+    updated Mobile Titel bar to reflect the new color
 
 Projects:
 
@@ -24,3 +25,4 @@ About:
 
     Updated the button colors and added transitions
     changed border colors of top and bottom containers
+
