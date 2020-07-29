@@ -13,13 +13,11 @@ router.get('/about', (req, res) => {
     res.render('about')
 })
 //projects page routes
-//dynamically pulls in the proper page when prject is selected
+//dynamically pulls in the proper page when project is selected
 router.get('/project/:id', (req, res) => {
     const projectId = req.params.id;
-    const project = projects.find(({ id }) => id === +projectId);
+    const project = projects.find(({ id }) => id === projectId);
     if (project) {
-        res.render('project', { project })
-    } else if (projectId) {
         res.render('project', { project })
     } else {
         res.sendStatus(404);
