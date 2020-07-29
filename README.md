@@ -12,11 +12,11 @@ index:
     added transition for learn more link
     added border radius and box shadows
     changed border colors of project thumbnails
-    updated Mobile Titel bar to reflect the new color
+    updated Mobile Title bar to reflect the new color
 
 Projects:
 
-    added margin to images to give proper whitespace
+    added margin to images to give proper white space
     changed button colors, added transitions
     changed border color of images
     changed border colors of top and bottom containers
