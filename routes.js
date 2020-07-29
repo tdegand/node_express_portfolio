@@ -14,6 +14,9 @@ router.get('/about', (req, res) => {
     res.render('about')
 })
 
+router.get('/project/about', (req, res) => {
+    res.redirect('/about')
+})
 //projects page routes
 //dynamically pulls in the proper page when project is selected
 router.get('/project/:id', (req, res, next) => {
