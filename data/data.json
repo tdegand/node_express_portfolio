@@ -86,6 +86,44 @@
                 "/static/images/apirequests-1.jpg",
                 "/static/images/apirequests-2.jpg"
             ]
+        },
+        {
+            "id": "6",
+            "project_name": "Tip Calculator",
+            "description": "An employee directory built using a public API that generates random users.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AJAX",
+                "API's"
+            ],
+            "live_link": "https://tdegand.github.io/public_api_requests/",
+            "github_link": "https://github.com/tdegand/public_api_requests",
+            "image_urls": [
+                "/static/images/apirequests-square.jpg",
+                "/static/images/apirequests-1.jpg",
+                "/static/images/apirequests-2.jpg"
+            ]
+        },
+        {
+            "id": "7",
+            "project_name": "React Gallery App",
+            "description": "An employee directory built using a public API that generates random users.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AJAX",
+                "API's"
+            ],
+            "live_link": "https://tdegand.github.io/public_api_requests/",
+            "github_link": "https://github.com/tdegand/public_api_requests",
+            "image_urls": [
+                "/static/images/apirequests-square.jpg",
+                "/static/images/apirequests-1.jpg",
+                "/static/images/apirequests-2.jpg"
+            ]
         }
     ]
 }
