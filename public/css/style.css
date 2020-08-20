@@ -210,9 +210,4 @@ img.icon {
     margin-right: auto;
     max-width: 15em;
   }
-  #social-container{
-    flex-direction: row;
-    height: 100px;
-    margin-top: 50px;
-  }
 }
