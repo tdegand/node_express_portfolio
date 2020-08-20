@@ -9,12 +9,12 @@
                 "Node.js",
                 "API's"
             ],
-            "live_link": "/#",
+            "live_link": "https://trusting-rosalind-022091.netlify.app/",
             "github_link": "https://github.com/tdegand/react-gallery",
             "image_urls": [
-                "/static/images/apirequests-square.jpg",
-                "/static/images/apirequests-1.jpg",
-                "/static/images/apirequests-2.jpg"
+                "/static/images/react-square.jpg",
+                "/static/images/react-2.jpg",
+                "/static/images/react-3.jpg"
             ]
         },
         {
