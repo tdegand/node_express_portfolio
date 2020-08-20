@@ -176,8 +176,28 @@ a:hover{
 }
 .social{
   display: block;
-  margin: auto;
+  position: relative;
+  margin: 10px 30px;
   width: max-content;
+}
+.social::after{
+  content: '';
+  display: block;
+  padding: 5px 0;
+  border-bottom: solid 2px #ffae00;
+  width: 0;
+  position: absolute;
+  left: 0;
+  transition: .5s ease-out;
+}
+
+.social:hover::after{
+  width: 100%;
+}
+
+img.icon {
+  height: 30px;
+  width: auto;
 }
 
 @media screen and (Max-width: 768px) {
