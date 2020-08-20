@@ -2,74 +2,23 @@
     "projects": [
         {
             "id": "1",
-            "project_name": "Random Quote Generator",
-            "description": "Displays random quotes on the page and using Javascript",
+            "project_name": "React Gallery App",
+            "description": "A gallery app created using the Flickr API.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "React",
+                "Node.js",
+                "API's"
             ],
-            "live_link": "https://tdegand.github.io/Random-Quote-Generator/",
-            "github_link": "https://github.com/tdegand/Random-Quote-Generator",
+            "live_link": "/#",
+            "github_link": "https://github.com/tdegand/react-gallery",
             "image_urls": [
-                "/static/images/randomquote-square.jpg",
-                "/static/images/randomquote-1.jpg",
-                "/static/images/randomquote-2.jpg"
+                "/static/images/apirequests-square.jpg",
+                "/static/images/apirequests-1.jpg",
+                "/static/images/apirequests-2.jpg"
             ]
         },
         {
             "id": "2",
-            "project_name": "List Pagination and Filtering",
-            "description": "Filters through a large list of users and dynamically creates pagination links",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "live_link": "https://tdegand.github.io/list-pagination-and-filtering/",
-            "github_link": "https://github.com/tdegand/list-pagination-and-filtering",
-            "image_urls": [
-                "/static/images/pagination-square.jpg",
-                "/static/images/pagination-1.jpg",
-                "/static/images/pagination-2.jpg"
-            ]
-        },
-        {
-            "id": "3",
-            "project_name": "Interactive Form",
-            "description": "Dynamically shows or hides fields based on user input. Also adds validation to each form to prevent users from submitting with wrong or no data",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "live_link": "https://tdegand.github.io/Interactive-form/",
-            "github_link": "https://github.com/tdegand/Interactive-form",
-            "image_urls": [
-                "/static/images/forms-square.jpg",
-                "/static/images/forms-1.jpg",
-                "/static/images/forms-2.jpg"
-            ]
-        },
-        {
-            "id": "4",
-            "project_name": "Gameshow app",
-            "description": "A phrase game built using Object Orientated JavaScript.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "Object Orientated JavaScript"
-            ],
-            "live_link": "https://tdegand.github.io/gameshow-app/",
-            "github_link": "https://github.com/tdegand/gameshow-app",
-            "image_urls": [
-                "/static/images/phrase-square.jpg",
-                "/static/images/phrase-1.jpg",
-                "/static/images/phrase-2.jpg"
-            ]
-        },
-        {
-            "id": "5",
             "project_name": "Public API request",
             "description": "An employee directory built using a public API that generates random users.",
             "technologies": [
@@ -88,41 +37,88 @@
             ]
         },
         {
-            "id": "6",
-            "project_name": "Tip Calculator",
-            "description": "An employee directory built using a public API that generates random users.",
+            "id": "3",
+            "project_name": "Gameshow app",
+            "description": "A phrase game built using Object Orientated JavaScript.",
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript",
-                "AJAX",
-                "API's"
+                "Object Orientated JavaScript"
             ],
-            "live_link": "https://tdegand.github.io/public_api_requests/",
-            "github_link": "https://github.com/tdegand/public_api_requests",
+            "live_link": "https://tdegand.github.io/gameshow-app/",
+            "github_link": "https://github.com/tdegand/gameshow-app",
             "image_urls": [
-                "/static/images/apirequests-square.jpg",
-                "/static/images/apirequests-1.jpg",
-                "/static/images/apirequests-2.jpg"
+                "/static/images/phrase-square.jpg",
+                "/static/images/phrase-1.jpg",
+                "/static/images/phrase-2.jpg"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Interactive Form",
+            "description": "Dynamically shows or hides fields based on user input. Also adds validation to each form to prevent users from submitting with wrong or no data",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://tdegand.github.io/Interactive-form/",
+            "github_link": "https://github.com/tdegand/Interactive-form",
+            "image_urls": [
+                "/static/images/forms-square.jpg",
+                "/static/images/forms-1.jpg",
+                "/static/images/forms-2.jpg"
+            ]
+        },
+        {
+            "id": "5",
+            "project_name": "Tip Calculator",
+            "description": "An application used to find the tip of amounts up to 1 million dollars and use any percentage.You can Also split the tip between up to 50 friends",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://tdegand.github.io/Tip-Calculator",
+            "github_link": "https://github.com/tdegand/Tip-Calculator",
+            "image_urls": [ 
+                "static/images/tip-calc-square.jpg",
+                "/static/images/tip-calc-2.jpg",
+                "/static/images/tip-calc-3.jpg"
+            ]
+        },
+        {
+            "id": "6",
+            "project_name": "List Pagination and Filtering",
+            "description": "Filters through a large list of users and dynamically creates pagination links",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://tdegand.github.io/list-pagination-and-filtering/",
+            "github_link": "https://github.com/tdegand/list-pagination-and-filtering",
+            "image_urls": [
+                "/static/images/pagination-square.jpg",
+                "/static/images/pagination-1.jpg",
+                "/static/images/pagination-2.jpg"
             ]
         },
         {
             "id": "7",
-            "project_name": "React Gallery App",
-            "description": "An employee directory built using a public API that generates random users.",
+            "project_name": "Random Quote Generator",
+            "description": "Displays random quotes on the page and using Javascript",
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript",
-                "AJAX",
-                "API's"
+                "JavaScript"
             ],
-            "live_link": "https://tdegand.github.io/public_api_requests/",
-            "github_link": "https://github.com/tdegand/public_api_requests",
+            "live_link": "https://tdegand.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/tdegand/Random-Quote-Generator",
             "image_urls": [
-                "/static/images/apirequests-square.jpg",
-                "/static/images/apirequests-1.jpg",
-                "/static/images/apirequests-2.jpg"
+                "/static/images/randomquote-square.jpg",
+                "/static/images/randomquote-1.jpg",
+                "/static/images/randomquote-2.jpg"
             ]
         }
     ]
