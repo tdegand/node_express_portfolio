@@ -15,6 +15,11 @@
                 "/static/images/react-square.jpg",
                 "/static/images/react-2.jpg",
                 "/static/images/react-3.jpg"
+            ],
+            "alt": [
+                "React Gallery",
+                "React Gallery showcase 1",
+                "React Gallery showcase 2"
             ]
         },
         {
@@ -34,6 +39,11 @@
                 "/static/images/apirequests-square.jpg",
                 "/static/images/apirequests-1.jpg",
                 "/static/images/apirequests-2.jpg"
+            ],
+            "alt": [
+                "Public API request",
+                "Public API request showcase 1",
+                "Public API request showcase 2"
             ]
         },
         {
@@ -51,6 +61,11 @@
                 "/static/images/phrase-square.jpg",
                 "/static/images/phrase-1.jpg",
                 "/static/images/phrase-2.jpg"
+            ],
+            "alt": [
+                "Gameshow app",
+                "Gameshow app showcase 1",
+                "Gameshow app showcase 2"
             ]
         },
         {
@@ -68,6 +83,11 @@
                 "/static/images/forms-square.jpg",
                 "/static/images/forms-1.jpg",
                 "/static/images/forms-2.jpg"
+            ],
+            "alt": [
+                "Interactive Form",
+                "Interactive Form showcase 1",
+                "Interactive Form showcase 2"
             ]
         },
         {
@@ -85,6 +105,11 @@
                 "static/images/tip-calc-square.jpg",
                 "/static/images/tip-calc-2.jpg",
                 "/static/images/tip-calc-3.jpg"
+            ],
+            "alt": [
+                "Tip Calculator",
+                "Tip Calculator showcase 1",
+                "Tip Calculator showcase 2"
             ]
         },
         {
@@ -102,6 +127,11 @@
                 "/static/images/pagination-square.jpg",
                 "/static/images/pagination-1.jpg",
                 "/static/images/pagination-2.jpg"
+            ],
+            "alt": [
+                "List Pagination and Filtering",
+                "List Pagination and Filtering showcase 1",
+                "List Pagination and Filtering showcase 2"
             ]
         },
         {
@@ -119,6 +149,11 @@
                 "/static/images/randomquote-square.jpg",
                 "/static/images/randomquote-1.jpg",
                 "/static/images/randomquote-2.jpg"
+            ],
+            "alt": [
+                "Random Quote Generator",
+                "Random Quote Generator showcase 1",
+                "Random Quote Generator showcase 2"
             ]
         }
     ]

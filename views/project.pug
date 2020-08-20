@@ -19,9 +19,9 @@ block content
           each tech in project.technologies
             li= tech
         
-        a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
+        a.button.expanded(href=`${project.live_link}`  target='_blank') Live Demo
+        a.button.expanded(href=`${project.github_link}`  target='_blank') GitHub Repo
     
    
-    img.image(src=`${project.image_urls[1]}`)
-    img.image(src=`${project.image_urls[2]}`)
+    img.image(src=`${project.image_urls[1]}` alt=`${project.alt[1]}`)
+    img.image(src=`${project.image_urls[2]}` alt=`${project.alt[2]}`)
