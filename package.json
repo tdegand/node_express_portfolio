@@ -2,16 +2,18 @@
   "name": "node_express_portfolio",
   "version": "1.0.0",
   "description": "Creating a Portfolio in Node.js and using the Express framwork and Pug templates for rendering the HTML",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
     "node": "^14.5.0",
     "pug": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
