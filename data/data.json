@@ -2,6 +2,30 @@
     "projects": [
         {
             "id": "1",
+            "project_name": "SQL Library Manager",
+            "description": "A Library app that allows you to create, delete and update a book database",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "Pug",
+                "Sequelize",
+                "sqlite"
+            ],
+            "live_link": "https://enigmatic-crag-54349.herokuapp.com/",
+            "github_link": "https://github.com/tdegand/sql-library-manager",
+            "image_urls": [
+                "/static/images/sql-square.jpg",
+                "/static/images/sql-2.jpg",
+                "/static/images/sql-1.jpg"
+            ],
+            "alt": [
+                "Library list",
+                "Library showcase 1",
+                "Library showcase 2"
+            ]
+        },
+        {
+            "id": "2",
             "project_name": "React Gallery App",
             "description": "A gallery app created using the Flickr API.",
             "technologies": [
@@ -23,7 +47,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": "3",
             "project_name": "Public API request",
             "description": "An employee directory built using a public API that generates random users.",
             "technologies": [
@@ -47,7 +71,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "4",
             "project_name": "Gameshow app",
             "description": "A phrase game built using Object Orientated JavaScript.",
             "technologies": [
@@ -69,7 +93,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": "5",
             "project_name": "Interactive Form",
             "description": "Dynamically shows or hides fields based on user input. Also adds validation to each form to prevent users from submitting with wrong or no data",
             "technologies": [
@@ -91,7 +115,7 @@
             ]
         },
         {
-            "id": "5",
+            "id": "6",
             "project_name": "Tip Calculator",
             "description": "An application used to find the tip of amounts up to 1 million dollars and use any percentage.You can Also split the tip between up to 50 friends",
             "technologies": [
@@ -113,7 +137,7 @@
             ]
         },
         {
-            "id": "6",
+            "id": "7",
             "project_name": "List Pagination and Filtering",
             "description": "Filters through a large list of users and dynamically creates pagination links",
             "technologies": [
@@ -135,7 +159,7 @@
             ]
         },
         {
-            "id": "7",
+            "id": "8",
             "project_name": "Random Quote Generator",
             "description": "Displays random quotes on the page and using Javascript",
             "technologies": [
