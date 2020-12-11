@@ -32,13 +32,5 @@ router.get('/project/:id', (req, res, next) => {
     }
 });
 
-//handles any other errors that may occur in routing
-router.get('*', (req, res, next) => {
-    const error = new Error("This page cannot be found")
-    error.status = 404
-    next(error)
-})
-
-
 //export the router for use elsewhere
 module.exports = router
