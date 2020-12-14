@@ -3,7 +3,7 @@
         {
             "id": "1",
             "project_name": "Full Stack Course App",
-            "description": "An application where you can create and manage courses",
+            "description": "An application where you can create an account to then create and manage courses.",
             "technologies": [
                 "Node.js",
                 "Express",
@@ -11,17 +11,17 @@
                 "Sequelize",
                 "MySQL"
             ],
-            "live_link": "https://enigmatic-crag-54349.herokuapp.com/",
-            "github_link": "https://github.com/tdegand/sql-library-manager",
+            "live_link": "https://elated-noether-7d2f5e.netlify.app/",
+            "github_link": "https://github.com/tdegand/fullstack-app",
             "image_urls": [
-                "/static/images/sql-square.jpg",
-                "/static/images/sql-2.jpg",
-                "/static/images/sql-1.jpg"
+                "/static/images/full-stack-square.jpg",
+                "/static/images/full-stack1.jpg",
+                "/static/images/full-stack2.jpg"
             ],
             "alt": [
-                "Library list",
-                "Library showcase 1",
-                "Library showcase 2"
+                "Courses",
+                "Courses sign up",
+                "Create a course"
             ]
         },
         {
