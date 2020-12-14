@@ -1,28 +1,5 @@
-Creating a Portfolio in Node.js and using the Express framwork and Pug templates for rendering the HTML
-Style updates:
+# Portfolio!
 
-Body:
+## Welcome!
 
-    Added background image
-
-index:
-
-    updated index page with new banner background color
-    new font colors on banner
-    added transition for learn more link
-    added border radius and box shadows
-    changed border colors of project thumbnails
-    updated Mobile Title bar to reflect the new color
-
-Projects:
-
-    added margin to images to give proper white space
-    changed button colors, added transitions
-    changed border color of images
-    changed border colors of top and bottom containers
-
-About: 
-
-    Updated the button colors and added transitions
-    changed border colors of top and bottom containers
-
+My portolio is self hosted and updated as needed. Check it out here: https://www.tylerdegand.com
